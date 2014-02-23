@@ -68,10 +68,9 @@ public class testAsso2 {
 		catch(SQLException e) {
 			System.out.println(e.getLocalizedMessage());
 		}
-		//___________________________________
-		//Affichage
+		
 		
 		System.out.println("\nFin des résultats !\n"); 
 
-	}// END MAIN()
+	}
 }

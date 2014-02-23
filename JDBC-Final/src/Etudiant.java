@@ -12,6 +12,18 @@ public class Etudiant implements Serializable {
 	private int annee;
 	private int groupe;
 	private Map<Module,Notation> Notations;
+	public Etudiant () {
+		
+	}
+	public Etudiant(String nomEt, int numEt, String prenomEt, String cpEt, String villeEt, int annee, int groupe) {
+        this.nomEt = nomEt;
+        this.numEt = numEt;
+        this.prenomEt = prenomEt;
+        this.cpEt = cpEt;
+        this.villeEt = villeEt;
+        this.annee = annee;
+        this.groupe = groupe;
+    }
 	
 	public int getNumEt() {
 		return numEt;
